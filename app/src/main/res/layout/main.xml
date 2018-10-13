@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="10dp"
@@ -36,8 +37,9 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="20dp" />
 
+
     <Button
-        android:id="@+id/buttonSearch"
+        android:id="@+id/listpaireddevices"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -45,5 +47,12 @@
         android:layout_marginTop="168dp"
         android:text="Search"
         android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/bluetoothstate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="DuplicateIds" />
+
+
 
 </RelativeLayout>
